@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{ font-family: 'Montserrat',sans-serif; }
+
+.jumbotron{
+	height: 100px;
+	display: flex;
+
+	justify-content: space-between;
+/*align-self:flex-start;*/
+align-items: center;
+background-color:#D3D1C6;
+}
+ .left{
+  display:flex;
+  justify-content: flex-end;
+ }
+
+
+h1{
+  color:#2A7E43;
+}
+
+.bg-success {
+  background-color: #2A7E43!important;
+}
+
+@media screen and (max-width: 767px) {
+ .banner-links{
+ 	display: none;
+
+ }
+
+}
+
+
+@media screen and (min-width: 767px) {
+.social_icons1{
+  display: none;
+  
+ }
+
+}
+
+@media screen and (max-width: 767px) {
+ #sb2.searchbox{
+ 	display: none;
+
+ }
+
+}
+
+
+@media screen and (min-width: 767px) {
+ #sb1.searchbox{
+  display: none;
+
+ }
+
+}
+
+
+
+
+#collapse_target.navbar-collapse.collapse.show{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+@media screen and (max-width: 767px) {
+  #collapse_target.navbar-collapse.collapse.show {
+    
+   display: block;
+
+  }
+
+
+
+
+
+}
+
+
+.banner-links {
+	/*float: right;*/
+  justify-content: flex-end ;
+  
+}
+
+.navbar.searchbox{
+	float: right;
+}
+
+.searchbox{
+
+	float:right;
+}
+
+
+.banner-links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #D3D1C6;
+  
+
+}
+
+.banner-links li {
+  float: left;
+}
+
+.banner-links li a {
+  display: block;
+  color: #2A7E43;
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+}
+
+.banner-links1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  
+
+}
+
+.banner-links1 li a {
+  display: block;
+  color: #2A7E43;
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+}
+.banner-links1 li {
+  float: left;
+}
+/*.banner-links li a:hover {
+  background-color: #2A7E43;
+}
+*/
+.footer {
+  height: 50px;
+  margin-top: -50px;
+  background: #333;
+}
+.btn-primary {
+    color: #2A7E43;
+    background-color: #D3D1C6;
+    border-color: #D3D1C6;
+}
+
+
+
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #2A7E43;
+    border-color: #2A7E43;
+
+}
+/*.btn-primary:active:focus {
+  color: #ffffff; 
+  background-color: #2A7E43; 
+  border-color: #2A7E43;
+}
+
+*/
+.btn-primary:not(:disabled):not(.disabled):active{
+      background-color: #2A7E43;
+      border-color: #2A7E43;
+ }
+
+ 
+span.navbar-text{
+ color:#000000!important;   
+}
+
+
+
+a{
+    color: #D3D1C6;
+    text-decoration: none;
+    background-color: transparent;
+    position: relative;
+}
+
+
+a.text1:hover {
+  color: #D3D1C6;
+}
+
+ a.text1:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color:#D3D1C6;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+ 
+a.text1:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+ a:active{
+  background: none;
+    color: #D3D1C6;
+    border-bottom: 1px solid #D3D1C6;
+  }
+
+/*/////////////////////////////////////////////////*/
+@media screen and (max-width: 878px) {
+ a{
+  font-size: 80%;
+
+ }
+
+}
+
+@media screen and (max-width: 767px) {
+ a{
+  font-size: 100%;
+
+ }
+
+}
+
+
+
+
+
+
+#sb1.searchbox:hover > .search-txt{
+  width:240px;
+
+  padding:0 6px;
+
+}
+
+#sb1.searchbox:hover > .search-btn{
+  background:white;
+  padding:0 6px;
+
+}
+
+#sb2.searchbox:hover > .search-txt{
+  width:240px;
+
+  padding:0 6px;
+
+}
+
+#sb2.searchbox:hover > .search-btn{
+  background:white;
+  padding:0 6px;
+
+}
+
+
+.search-btn{
+  color:#e84118;
+  float:right;
+  width:40px;
+  height:40px;
+   border-radius:50%;
+   background: #2f3640;
+   display: flex;
+   justify-content: center;
+align-items:center;
+transition:0.4s;
+ }
+
+
+ .search-txt{
+  border:none;
+  background: #2f3640;
+  outline:none;
+  float:left;
+  padding:0;
+  color:white;
+  font-size:16px;
+  transition:0.4s;
+  line-height: 40px;
+  width:0px;
+ }
+
+ 
+
+.container1 {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+
+
+
+.copyright {
+  text-align: center;
+}
+
+
+
+.text-center {
+    text-align: center;
+
+}
+
+.headercontact {
+    min-height: 70px;
+    font-size: 27px;
+    padding: 10px;
+}
+.header {
+    background: #2A7E43;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+

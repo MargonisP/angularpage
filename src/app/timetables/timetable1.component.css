@@ -1,0 +1,248 @@
+@media (min-width: 54em){
+.main .main-inner {
+    background-color: #fff;
+    padding: 2em 0 0 2em;
+    margin-bottom: 2em;
+    width: 100%;
+}}
+
+@media (min-width: 54em){
+.main .main-inner .main-content {
+    padding-right: 2em;
+}}
+
+.main .main-content {
+    overflow: hidden;
+    *zoom: 1;
+    min-height: 37.5em;
+}
+
+@media (min-width: 54em){
+.section {
+    margin-bottom: 2em;
+}}
+
+.section {
+    margin-bottom: 1.6em;
+    clear: both;
+    overflow: hidden;
+    *zoom: 1;
+    background: #ffffff;
+}
+
+@media (min-width: 54em){
+.timetable-nav {
+    background: #4e4f56;
+    color: #ffffff;
+}}
+.timetable-nav {
+    background: #4e4f56;
+    color: #ffffff;
+}
+
+@media (min-width: 54em){
+.timetable-nav ul {
+    padding: 1em 1em 0 1em;
+}}
+
+.timetable-nav ul {
+    padding: 1em 1em 0 1em;
+}
+ol, ul {
+    list-style: none;
+}
+
+@media (min-width: 54em){
+.timetable-nav li {
+    width: 24%;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+}}
+.timetable-nav li {
+    width: 47.36842%;
+    float: left;
+    margin-right: 5.26316%;
+    display: inline;
+    width: 49%;
+    color: #ffffff;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    margin-bottom: 1em;
+    background-color: rgba(255,255,255,0.15);
+}
+li {
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+
+
+
+@media (min-width: 54em){
+.timetable-nav li.active {
+    background: #ffffff;
+}}
+.timetable-nav li.active {
+    background: #ffffff;
+}
+@media (min-width: 54em){
+.timetable-nav li {
+    width: 24%;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+}}
+.timetable-nav li {
+    width: 47.36842%;
+    float: left;
+    margin-right: 5.26316%;
+    display: inline;
+    width: 49%;
+    color: #ffffff;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    margin-bottom: 1em;
+    background-color: rgba(255,255,255,0.15);
+}
+li {
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+
+@media (min-width: 24em){
+.generictext {
+    padding: 0;
+}}
+.tab {
+    margin-top: 2em;
+    position: relative;
+}
+.generictext {
+    padding: 2em 1.3em;
+}
+
+@media (min-width: 24em){
+.generictext {
+    padding: 0;
+}}
+.tab {
+    margin-top: 2em;
+    position: relative;
+}
+.generictext {
+    padding: 2em 1.3em;
+}
+
+.timetable .timetablewrapper {
+    height: auto;
+    background: #e6e6e6;
+    top: 1em;
+}
+
+.timetables-with-js .daycontainer {
+    height: auto;
+    margin: 1em;
+    padding: 0 0 1em 0;
+}
+
+
+timetables-with-js .directioncontainer {
+    height: auto;
+    margin: 1em;
+    padding: 0;
+    padding-bottom: 3em;
+}
+
+
+p.instruction {
+    text-align: left;
+    padding: 1em 1em 0 60px;
+    margin-left: 1em;
+    display: none;
+    font-size: 1.4em;
+    line-height: 1.4;
+    min-height: 33px;
+    background: url(/static/images/icon-swipe.png) no-repeat 0 1em;
+}
+
+
+.timetables-with-js .loading {
+    position: absolute;
+    background-color: white;
+    top: 390px;
+    right: 50%;
+}
+.loading {
+    
+    height: 30px;
+    width: 30px;
+    margin: 0 auto;
+}
+
+
+.timetables-with-js .timetablehook {
+    background-color: white;
+    min-height: 300px;
+}
+
+.timetable .timetablewrapper {
+    height: auto;
+    background: #e6e6e6;
+    top: 1em;
+}
+
+
+.timetables-with-js .direction-switcher li, .timetables-with-js .day-switcher li {
+    height: 32px;
+    list-style-type: none;
+}
+.generictext ul li {
+    list-style-type: none;
+}
+.generictext li {
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1.71429;
+}
+
+li {
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+
+.timetables-with-js .direction-switcher, .timetables-with-js .day-switcher {
+   
+    height: 32px;
+    border: solid 1px #b3b3b3;
+    text-indent: 1em;
+    cursor: pointer;
+    color: #939394;
+    margin-left: 0;
+    font-family: arial, sans-serif;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 1em;
+    padding-bottom: 0;
+}
+
+.generictext ul {
+    padding-bottom: 1em;
+}
+.generictext ol, .generictext ul {
+    list-style: none inside none;
+}
+.generictext ul {
+    margin-left: 2em;
+    list-style: none inside none;
+}
+ol, ul {
+    list-style: none;
+}
+
+.timetables-with-js .daycontainer {
+    height: auto;
+    margin: 1em;
+    padding: 0 0 1em 0;
+}

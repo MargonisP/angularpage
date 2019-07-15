@@ -1,0 +1,40 @@
+ a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+  color: #2A7E43;
+}
+
+.controls {
+  margin-bottom: 10px;
+}
+
+.collapse-group {
+  padding: 10px;
+  border: 1px solid darkgrey;
+  margin-bottom: 10px;
+}
+
+.panel-title .trigger:before {
+  content: '\e082';
+  font-family: 'Glyphicons Halflings';
+  vertical-align: text-bottom;
+}
+
+.panel-title .trigger.collapsed:before {
+  content: '\e081';
+} 
+  
+
+button{
+ background-color: #2A7E43;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:active{
+	background-color: #2A7E43;
+}
